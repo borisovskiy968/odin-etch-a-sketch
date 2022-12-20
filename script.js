@@ -30,7 +30,8 @@ function setSquaresPerSide(e) {
   squaresPerSide =
     parseInt(prompt(
       'Please enter the number of squares per side (from 1 to 100):', 16));
-  if (!isNaN(squaresPerSide)) {
+  console.log(squaresPerSide);
+  if (!isNaN(squaresPerSide) && squaresPerSide >= 1 && squaresPerSide <= 100) {
     createGridOfSquares(squaresPerSide);
   }
 }
