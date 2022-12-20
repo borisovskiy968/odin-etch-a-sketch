@@ -1,3 +1,7 @@
+.btn-squares-per-side {
+  margin-bottom: 40px;
+}
+
 .container {
   display: grid;
   max-width: 640px;
