@@ -1,0 +1,16 @@
+.container {
+  display: grid;
+  max-width: 640px;
+  /*make neat borders around squares*/
+  gap: 1px;
+  padding: 1px;
+  background-color: black;
+}
+
+.off {
+  background-color: white;
+}
+
+.lit {
+  background-color: blue;
+}
