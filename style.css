@@ -5,6 +5,7 @@
 .container {
   display: grid;
   max-width: 640px;
+  height: 640px;
   /*Make neat borders around squares*/
   gap: 1px;
   padding: 1px;

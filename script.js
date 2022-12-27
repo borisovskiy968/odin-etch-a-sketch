@@ -5,8 +5,8 @@ createGridOfSquares(squaresPerSide);
 function createGridOfSquares(squaresPerSide) {
   const container = document.querySelector('.container');
   container.replaceChildren();
-  container.style.gridAutoColumns = `minmax(auto, ${640 / squaresPerSide}px)`;
-  container.style.gridAutoRows = `${640 / squaresPerSide}px`;
+  container.style.gridAutoColumns = '1fr';
+  container.style.gridAutoRows = '1fr';
 
   for (let i = 1; i < squaresPerSide + 1; i++) {
     for (let j = 1; j < squaresPerSide + 1; j++) {
